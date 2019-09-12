@@ -2,6 +2,11 @@
 ; Keyboard remap for Windows Ukrainian (PC) layout
 ; AutoHotKey script
 ;
+; ! = ALT
+; ^ = CTRL
+; + = SHIFT
+; # = WIN
+;
 ; ##############################################################
 ;
 ; Language = CapsLock
@@ -71,3 +76,21 @@ Return
 +WheelUp::WheelLeft
 ;
 ; ##############################################################
+;
+; Alt + C = copy
+!c::^c
+;
+; Alt + V = paste
+!v::^v
+;
+; Alt + X = cut
+!x::^x
+;
+; Alt + Z = undo
+!z::^z
+;
+; Alt + W = undo
+!w::^w
+;
+; Alt + Q = force quit
+!q::Send !{F4}
