@@ -38,6 +38,11 @@ Return
 $+!t::
 Send, {U+0401}
 Return
+; Russian letter "ъ" = Alt + ]
+;
+$!]::
+Send, {U+044A}
+Return
 ;
 ; ##############################################################
 ;
@@ -58,5 +63,11 @@ Return
 !Backspace::
 Send, {Delete}
 Return
+;
+; ##############################################################
+;
+; Shift + Wheel for horizontal scrolling
++WheelDown::WheelRight
++WheelUp::WheelLeft
 ;
 ; ##############################################################
