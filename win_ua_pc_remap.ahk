@@ -78,19 +78,19 @@ Return
 ; ##############################################################
 ;
 ; Alt + C = copy
-!c::^c
+!c::Send ^c
 ;
 ; Alt + V = paste
-!v::^v
+!v::Send ^v
 ;
 ; Alt + X = cut
-!x::^x
+!x::Send ^x
 ;
 ; Alt + Z = undo
-!z::^z
+!z::Send ^z
 ;
 ; Alt + W = undo
-!w::^w
+!w::Send ^w
 ;
 ; Alt + Q = force quit
 !q::Send !{F4}
