@@ -77,6 +77,8 @@ Return
 ;
 ; ##############################################################
 ;
+; MacOS style functional
+;
 ; Alt + C = copy
 !c::Send ^c
 ;
@@ -94,3 +96,17 @@ Return
 ;
 ; Alt + Q = force quit
 !q::Send !{F4}
+;
+; ##############################################################
+;
+; MacOS style functional
+;
+; Alt + minus/dash = Volume down by 1 interval
+!-::Send {Volume_Down}
+;
+; Alt + plus/equaly = Volume up by 1 interval
+!=::Send {Volume_Up}
+;
+; Alt + minus/dash +  plus/equaly  = Volume mute
+; !-=::Send {Volume_Mute}
+;
