@@ -8,7 +8,6 @@
 ; # = WIN
 ;
 ; ##############################################################
-;
 ; Language = CapsLock
 ;
 SetCapsLockState, AlwaysOff
@@ -17,7 +16,6 @@ CapsLock::Send, {Ctrl down}{Shift down}{Shift up}{Ctrl up}{Ctrl up}
 Return
 ;
 ; ##############################################################
-;
 ; Russian letter "ы" = Alt + s
 ;
 !s::
@@ -50,7 +48,6 @@ Send, {U+044A}
 Return
 ;
 ; ##############################################################
-;
 ; "Home" and "End" = Alt + Up/Down
 ;
 !Up::
@@ -76,7 +73,6 @@ Return
 +WheelUp::WheelLeft
 ;
 ; ##############################################################
-;
 ; MacOS style functional
 ;
 ; Alt + C = copy
@@ -97,9 +93,11 @@ Return
 ; Alt + Q = force quit
 !q::Send !{F4}
 ;
-; ##############################################################
+; Alt + A = select all
+!a::Send ^a
 ;
-; MacOS style functional
+; ##############################################################
+; VOLUME UP/DOWN
 ;
 ; Alt + minus/dash = Volume down by 1 interval
 !-::Send {Volume_Down}
