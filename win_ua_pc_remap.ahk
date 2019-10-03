@@ -12,7 +12,7 @@
 ;
 SetCapsLockState, AlwaysOff
 +CapsLock::CapsLock
-CapsLock::Send, {Ctrl down}{Shift down}{Shift up}{Ctrl up}{Ctrl up}
+CapsLock::Send, {LWin down}{Space down}{Space up}{LWin up}
 Return
 ;
 ; ##############################################################
@@ -108,3 +108,8 @@ Return
 ; Alt + minus/dash +  plus/equaly  = Volume mute
 ; !-=::Send {Volume_Mute}
 ;
+;
+; Turn on Print Screen button in Win10
+; via Settings > Ease of Access > Keyboard
+; Then assign Alt + 1 to it
+!1::Send {PrintScreen}
