@@ -96,6 +96,8 @@ Return
 ; Alt + A = select all
 !a::Send ^a
 ;
+; Alt + R = reload page
+!r::Send ^r
 ; ##############################################################
 ; VOLUME UP/DOWN
 ;
