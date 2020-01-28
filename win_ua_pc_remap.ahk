@@ -98,20 +98,8 @@ Return
 ;
 ; Alt + R = reload page
 !r::Send ^r
+;
 ; ##############################################################
-; VOLUME UP/DOWN
-;
-; Alt + minus/dash = Volume down by 1 interval
-!-::Send {Volume_Down}
-;
-; Alt + plus/equaly = Volume up by 1 interval
-!=::Send {Volume_Up}
-;
-; Alt + minus/dash +  plus/equaly  = Volume mute
-; !-=::Send {Volume_Mute}
-;
-;
-; Turn on Print Screen button in Win10
-; via Settings > Ease of Access > Keyboard
-; Then assign Alt + 1 to it
-!1::Send {PrintScreen}
+; Alt + 2 -> run C:\screen2gif.exe
+!2::
+Run "C:\Screen2Gif.exe"
