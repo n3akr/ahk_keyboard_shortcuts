@@ -8,6 +8,14 @@
 ; # = WIN
 ;
 ; ##############################################################
+; Disable LWin key
+LWin::Return
+;
+; ##############################################################
+; Enable Win+S as Alt+Space
+!Space::Send #s
+;
+; ##############################################################
 ; Language = CapsLock
 ;
 SetCapsLockState, AlwaysOff
@@ -98,11 +106,6 @@ Return
 ;
 ; Alt + R = reload page
 !r::Send ^r
-;
-; ##############################################################
-; Alt + 2 -> run C:\screen2gif.exe
-!2::
-Run "C:\Screen2Gif.exe"
 ;
 ; ##############################################################
 ; Note: You can optionally release the ALT key after pressing down the mouse button 
